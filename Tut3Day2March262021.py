@@ -1,3 +1,4 @@
+
 """A sample list of grocery.List can also have numbers and string characters"""
 grocery=["Harpic","Vimbar","lollypop","milk","coca cola",566,555,550]
 print(grocery)
@@ -64,3 +65,12 @@ print(numbers)
 abc=["a","b"]
 abc.extend("c")
 print(abc)
+
+
+
+#TUPLE-Immutatble list-whose elements cant be changed
+
+tup1=(1,2,3,4,5)
+print(tup1)
+print(type(tup1))
+print(len(tup1))
