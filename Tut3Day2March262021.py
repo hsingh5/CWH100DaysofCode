@@ -63,8 +63,8 @@ print(numbers)
 
 #to extend the list 
 abc=["a","b"]
-abc.extend("c")
-print(abc)
+abc.extend("canada")
+print(abc,"Here is the new llist after using extend function")
 
 
 
@@ -74,3 +74,6 @@ tup1=(1,2,3,4,5)
 print(tup1)
 print(type(tup1))
 print(len(tup1))
+#To create an empty 1 element tuple we use following way
+tup2=('a',)
+print("New created tuple is ",tup2,"and the type is ",type(tup2))
