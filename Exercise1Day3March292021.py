@@ -13,4 +13,4 @@ print("New created dictionary",dict2)
 print(dict2["Harjeet's Daily eating"]["Breakfast"])
 dict2["Harjeet's Daily eating"]["Breakfast"]="Momos"
 print(dict2)
-
+#We cannot use update function and get method when using nesting in Dictionaries
