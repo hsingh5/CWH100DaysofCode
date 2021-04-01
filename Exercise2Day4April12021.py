@@ -36,4 +36,4 @@ if computation in computation_list:
         else:
             print("The answer is ",div1)
 else:
-    print("Sorry computation not available!")
+    print("Sorry computation not available! Try something else")
