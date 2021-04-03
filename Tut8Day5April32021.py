@@ -26,12 +26,12 @@ while(i>0):
 
 
 while(True):
-    var1 = int(input("Enter the variable:"))
+    var1 = int(input("Enter the variable:\n"))
     if var1<100:
         print(var1)
         continue
     elif var1>100:
-        print("Sorry")
+        print("Sorry\n")
         break
 
 
