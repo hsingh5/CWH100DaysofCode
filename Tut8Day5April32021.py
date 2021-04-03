@@ -11,6 +11,7 @@ while(i<40):
 #break means break the loop
 #continue means ignore the rest of the lines and go back to the beginning of loop
 
+"""
 i=1
 while(i>0):
     i=i+1
@@ -19,4 +20,20 @@ while(i>0):
     print("Value of i is ",i)
     if i==20:
         break
+   """
+#Quiz to take input from the user.User can enter till 100.As soon as 100 is reached,print("Congratualations")
+
+
+
+while(True):
+    var1 = int(input("Enter the variable:"))
+    if var1<100:
+        print(var1)
+        continue
+    elif var1>100:
+        print("Sorry")
+        break
+
+
+
 
