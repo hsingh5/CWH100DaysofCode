@@ -4,15 +4,14 @@
 correctnumb1=99
 no_of_attempts=9
 
-while(True and no_of_attempts>0):
+while (True):
     guessnumb1 = int(input("Enter the number to be guessed: \n"))
-    no_of_attempts=no_of_attempts-1
-    if guessnumb1<correctnumb1:
+    if guessnumb1 < correctnumb1:
         print("Sorry you entered a number less that the number to be guessed")
-        no_of_attempts=no_of_attempts-1
-        print("No of attempts remaining:",no_of_attempts)
+        no_of_attempts = no_of_attempts - 1
+        print("No of attempts remaining:", no_of_attempts)
         print("Try again!")
-        if no_of_attempts==0:
+        if no_of_attempts == 0:
             print("Sorry you have reached the max no of attempts")
             break
         else:
