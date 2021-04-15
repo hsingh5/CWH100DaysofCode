@@ -21,5 +21,8 @@ for item in dict1.values():
 #Quiz to print items of list which are number and greater than 6
 list1=[1,2,3,4,5,6,7,3,34,34,3,43,1,24,25,45,3453,566,"Harrry","Larry","Sharry","Farry"]
 for item in list1:
-    if str(item).isnumeric() and item>6:
+    """if str(item).isnumeric() and item>6:
+        print(item)
+        """
+    if type(item) == int and item > 6:
         print(item)
