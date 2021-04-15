@@ -8,6 +8,6 @@ try:
     print("The sum is ", sum)
 
 except Exception as e:
-    print(e)
+    print(e)  # will print the error or exception line as string
 
 print("This line is very important")
