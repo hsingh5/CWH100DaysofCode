@@ -23,7 +23,7 @@ print(numberslist1[::-1])  # Shortcut to reverse the list
 print(numberslist1[1:5:-3])
 print("The original list:", numberslist1)
 """
-NOTE:Negative slicing should only be done till -1 and not any number greater than that otherwise it can return in an empty list
+NOTE:Negative slicing should only be done till -1 and not any number greater than that otherwise it can return in an empty list.
 """
 # in Built methods in List
 # Method To find out the length of the list
