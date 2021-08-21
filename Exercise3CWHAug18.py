@@ -24,7 +24,7 @@ while (1):
         no_of_attempts = no_of_attempts - 1
         print("No. of attempts:", no_of_attempts)
         if no_of_attempts == 0:
-            print("Maximum number of attempts reached! Sorry")
+            print("Maximum number of attempts reached! Sorry Try agein")
             break
         else:
             continue
